@@ -1,0 +1,13 @@
+.vscode
+*.pyc
+*.zip
+splits
+images/
+*.pth
+*.pkl
+train/
+val/
+wandb/
+tmp*
+lib.py
+robot.png
