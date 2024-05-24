@@ -1,11 +1,10 @@
 # puzzle-solutions
 
-- [X]  [Tensor-Puzzles](https://github.com/srush/Tensor-Puzzles)
-- [X]  [GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
-- [ ]  [Triton-Puzzles](https://github.com/srush/Triton-Puzzles)
+- [X]  [~~Tensor-Puzzles~~](https://github.com/srush/Tensor-Puzzles)
+- [X]  [~~GPU-Puzzles~~](https://github.com/srush/GPU-Puzzles)
+- [ ]  [Autodiff-Puzzles](https://github.com/srush/Autodiff-Puzzles)
 - [ ]  [Transformer-Puzzles](https://github.com/srush/Transformer-Puzzles)
 - [ ]  [GPTWorld](https://github.com/srush/GPTWorld)
-- [ ]  [Autodiff-Puzzles](https://github.com/srush/Autodiff-Puzzles)
 - [ ]  [LLM-Training-Puzzles](https://github.com/srush/LLM-Training-Puzzles)
 - [ ]  [Triton-Puzzles](https://github.com/srush/Triton-Puzzles)
 
@@ -20,4 +19,3 @@ Tensor-Puzzles은 기본적인 행렬 연산들만을 활용해 (`+-*/, >=<, @, 
 GPU-Puzzles는 실제 GPU kernel을 작성하여 직접 텐서 연산을 (e.g. broadcasting, matmul) 구현해 보는 퍼즐이다. 이 퍼즐을 풀면서 GPU kernel이 어떻게 연산을 병렬화 하는지, GPU block이 어떻게 공유 메모리를 사용하는지를 배울 수 있다. 
 
 특히 마지막 matmul은 정말 어려운데, kernel과 block level을 모두 고려해야 하기 때문이다. kernel level에서는 공유 메모리에 데이터를 올리는 cost를 최소화하는 반면, block level에서는 어떻게 연산을 독립된 작은 문제로 나눌 수 있는지를 고려해야 한다. (진짜 재밌다 ㅋㅋㅋㅋ)
-
